@@ -1,0 +1,32 @@
+runtime: php72
+
+handlers:
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /bootstrap
+  static_dir: bootstrap
+
+- url: /css
+  static_dir: public/css  
+
+- url: /js
+  static_dir: public/js
+
+env_variables:
+  ## Put production environment variables here.
+  APP_KEY: base64:JSE0tBHGgUMARdg4c81KFjRyHcAn0l7p4mKJMbiLZqw=
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  CACHE_DRIVER: database
+  SESSION_DRIVER: database
+  ## Set these environment variables according to your CloudSQL configuration.
+  DB_DATABASE: laravel
+  DB_USERNAME: root
+  DB_PASSWORD: 123456
+  DB_SOCKET: "/cloudsql/philotest:asia-east2:philomysql"
+
+
+
