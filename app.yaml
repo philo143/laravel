@@ -1,19 +1,19 @@
 runtime: php72
 
-# handlers:
+handlers:
 
-# - url: /favicon\.ico
-#   static_files: favicon.ico
-#   upload: favicon\.ico
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
 
-# - url: /bootstrap
-#   static_dir: bootstrap
+- url: /bootstrap
+  static_dir: bootstrap
 
-# - url: /css
-#   static_dir: public/css  
+- url: /css
+  static_dir: public/css  
 
-# - url: /js
-#   static_dir: public/js
+- url: /js
+  static_dir: public/js
 
 env_variables:
   ## Put production environment variables here.
@@ -27,4 +27,5 @@ env_variables:
   DB_USERNAME: root
   DB_PASSWORD: 123456
   DB_SOCKET: "/cloudsql/philotest:asia-east2:philomysql"
-
+  APP_SERVICES_CACHE: /tmp/services.php
+  APP_PACKAGES_CACHE: /tmp/packages.php
