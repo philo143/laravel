@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Philo Test Server
+                    Testing Server
                 </div>
 
                 <div class="links">
