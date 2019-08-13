@@ -15,6 +15,7 @@
                     @endif
 
                     <h1>Hello World!</h1>
+                    <h2>This is just a test</h2>
                 </div>
             </div>
         </div>
