@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Testing Server
+                    Testing Servers
                 </div>
 
                 <div class="links">
