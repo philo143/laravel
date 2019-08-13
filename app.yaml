@@ -28,5 +28,3 @@ env_variables:
   DB_PASSWORD: 123456
   DB_SOCKET: "/cloudsql/philotest:asia-east2:philomysql"
 
-
-
